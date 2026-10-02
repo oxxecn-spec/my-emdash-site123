@@ -14,6 +14,7 @@ export default defineConfig({
 	integrations: [
 		react(),
 		emdash({
+			siteUrl: "https://dressshirts.cc",
 			database: d1({ binding: "DB", session: "auto" }),
 			storage: r2({ binding: "MEDIA" }),
 		}),
